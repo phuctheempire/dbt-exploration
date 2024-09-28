@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: terraform-tutorial-435313
+    schema: taxy_rides_ny
+
+    tables:
+      - name: green_trips_data
+      - name: yellow_trips_data
